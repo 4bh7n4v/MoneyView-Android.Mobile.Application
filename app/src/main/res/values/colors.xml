@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#00897B</color>
+    <color name="brand_dark">#00695C</color>
+    <color name="brand_container">#B2DFDB</color>
+    <color name="on_brand_container">#00201C</color>
+    <color name="accent">#FF7043</color>
+    <color name="launcher_background">#00897B</color>
+
+    <color name="income">#2E7D32</color>
+    <color name="expense">#C62828</color>
+    <color name="settled">#757575</color>
+    <color name="budget_warning">#F9A825</color>
+
+    <color name="chart_income">#00695C</color>
+    <color name="chart_expense">#80CBC4</color>
+    <color name="toolbar">#00897B</color>
+</resources>

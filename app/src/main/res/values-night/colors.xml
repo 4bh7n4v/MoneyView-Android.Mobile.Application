@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="income">#81C784</color>
+    <color name="expense">#EF9A9A</color>
+    <color name="settled">#9E9E9E</color>
+    <color name="budget_warning">#FFD54F</color>
+
+    <color name="chart_income">#4DB6AC</color>
+    <color name="chart_expense">#B2DFDB</color>
+    <color name="toolbar">#00574F</color>
+</resources>

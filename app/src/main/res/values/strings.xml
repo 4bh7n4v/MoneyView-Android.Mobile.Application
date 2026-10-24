@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <!-- Tabs -->
+    <string name="tab_transactions">Transactions</string>
+    <string name="tab_charts">Charts</string>
+    <string name="tab_lending">Lending</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Month selector -->
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+
+    <!-- Transactions tab -->
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="balance">Balance</string>
+    <string name="budget_used">%1$s of %2$s budget used</string>
+    <string name="budget_over">Over budget by %1$s (budget %2$s)</string>
+    <string name="filter_all">All</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search this month</string>
+    <string name="empty_month">No transactions this month.\nTap + to add one.</string>
+    <string name="no_matches">No matching transactions.</string>
+    <string name="item_subtitle">%1$s • %2$s</string>
+
+    <!-- Add / edit transaction -->
+    <string name="add_transaction">Add transaction</string>
+    <string name="edit_expense">Edit expense</string>
+    <string name="edit_income">Edit income</string>
+    <string name="expense">Expense</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_amount">Amount (%1$s)</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_note">Note (optional)</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="undo">Undo</string>
+    <string name="error_title">Enter a title</string>
+    <string name="error_amount">Enter an amount greater than 0</string>
+    <string name="error_category">Choose a category</string>
+    <string name="transaction_added">Saved</string>
+    <string name="transaction_updated">Updated</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="delete_transaction_title">Delete transaction?</string>
+    <string name="delete_message">\"%1$s\" will be permanently removed.</string>
+
+    <!-- Charts tab -->
+    <string name="spent">Spent</string>
+    <string name="earned">Earned</string>
+    <string name="empty_expense_chart">No expenses this month.</string>
+    <string name="empty_income_chart">No income this month.</string>
+    <string name="amount_with_percent">%1$s (%2$d%%)</string>
+
+    <!-- Lending tab -->
+    <string name="to_receive">To receive</string>
+    <string name="to_pay">To pay</string>
+    <string name="empty_people">No one added yet.\nTap + to register a person you lend money to.</string>
+    <string name="balance_owes_you">Owes you %1$s</string>
+    <string name="balance_you_owe">You owe %1$s</string>
+    <string name="balance_settled">Settled</string>
+    <string name="reminders_active">Reminders active</string>
+
+    <!-- Person edit -->
+    <string name="add_person">Add person</string>
+    <string name="edit_person">Edit person</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_profile_note">Profile note (optional)</string>
+    <string name="error_name">Enter a name</string>
+    <string name="error_phone">Enter a valid phone number</string>
+    <string name="person_added">Person added</string>
+    <string name="person_updated">Profile updated</string>
+
+    <!-- Person detail -->
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="records">Money records</string>
+    <string name="add">Add</string>
+    <string name="empty_records">No records yet. Add money you gave or received.</string>
+    <string name="add_record">Add record</string>
+    <string name="edit_record">Edit record</string>
+    <string name="loan_gave">I gave</string>
+    <string name="loan_received">I received</string>
+    <string name="loan_you_gave">You gave</string>
+    <string name="loan_you_received">You received</string>
+    <string name="delete_record_title">Delete this record?</string>
+    <string name="delete_person_title">Delete person?</string>
+    <string name="delete_person_message">%1$s and all their records and reminders will be permanently removed.</string>
+    <string name="person_deleted">Person deleted</string>
+    <string name="no_app_found">No app found to handle this</string>
+
+    <!-- Reminders -->
+    <string name="reminder_messages">Reminder messages</string>
+    <string name="empty_reminders">No reminders. Add a message to send automatically by SMS.</string>
+    <string name="add_reminder">New reminder</string>
+    <string name="edit_reminder">Edit reminder</string>
+    <string name="hint_message">Message</string>
+    <string name="helper_message">{name} and {amount} are replaced with their name and what they owe.</string>
+    <string name="default_reminder_message">Hi {name}, just a friendly reminder about the {amount} you owe me. Thanks!</string>
+    <string name="hint_frequency">Repeat</string>
+    <string name="hint_time">Time</string>
+    <string name="error_message">Enter a message</string>
+    <string name="error_future_time">Pick a future date and time</string>
+    <string name="error_pick_new_time">This one-time reminder has passed. Pick a new time.</string>
+    <string name="reminder_saved">Reminder set for %1$s</string>
+    <string name="reminder_schedule">%1$s • next %2$s</string>
+    <string name="reminder_paused">%1$s • paused</string>
+    <string name="reminder_last_sent">Last sent %1$s</string>
+    <string name="send_now">Send now</string>
+    <string name="delete_reminder_title">Delete this reminder?</string>
+    <string name="message_sent">Message sent to %1$s</string>
+    <string name="message_failed">Couldn\'t send the message. Check SMS permission and signal.</string>
+    <string name="sms_permission_denied">SMS permission denied, so reminders can\'t be sent.</string>
+    <string name="channel_reminders">Reminder messages</string>
+    <string name="channel_reminders_description">Tells you when a scheduled SMS reminder is sent</string>
+    <string name="notification_sent">Reminder sent to %1$s</string>
+    <string name="notification_failed">Couldn\'t send reminder to %1$s</string>
+    <string name="notification_failed_detail">Allow SMS permission in Settings so reminders can be sent.</string>
+
+    <!-- Settings -->
+    <string name="currency">Currency</string>
+    <string name="currency_note">Amounts are saved in rupees. When US Dollar is selected, every amount is converted using this rate.</string>
+    <string name="hint_usd_rate">1 US Dollar =</string>
+    <string name="error_rate">Enter a rate greater than 0</string>
+    <string name="rate_saved">Rate saved: $1 = ₹%1$s</string>
+    <string name="currency_changed">Showing all amounts in %1$s (%2$s)</string>
+    <string name="hint_budget">Monthly limit (%1$s)</string>
+    <string name="error_budget">Enter an amount greater than 0, or leave empty</string>
+    <string name="budget_saved">Budget limits saved</string>
+    <string name="sms_reminders">SMS reminders</string>
+    <string name="sms_permission_granted">SMS permission granted. Reminders will be sent automatically.</string>
+    <string name="sms_permission_missing">SMS permission not granted. Reminders can\'t be sent until you allow it.</string>
+    <string name="grant_permission">Allow</string>
+
+    <!-- Budget limits and alerts -->
+    <string name="budget_limits">Budget limits</string>
+    <string name="budget_limits_note">You\'ll get a notification at 80% of a limit and when you go over it. Leave a field empty for no limit.</string>
+    <string name="hint_daily_budget">Daily limit (%1$s)</string>
+    <string name="budget_alerts">Budget alert notifications</string>
+    <string name="budget_daily_used">Today: %1$s of %2$s daily limit</string>
+    <string name="budget_daily_over">Today: over daily limit by %1$s (limit %2$s)</string>
+    <string name="channel_budget">Budget alerts</string>
+    <string name="channel_budget_description">Warns you when you get close to or go over a spending limit</string>
+    <string name="alert_daily_warning">%1$d%% of today\'s limit used</string>
+    <string name="alert_daily_warning_text">You\'ve spent %1$s of your %2$s daily limit. %3$s left for today.</string>
+    <string name="alert_daily_exceeded">Daily limit exceeded</string>
+    <string name="alert_daily_exceeded_text">You\'ve spent %1$s today, over your %2$s limit by %3$s.</string>
+    <string name="alert_monthly_warning">%1$d%% of this month\'s budget used</string>
+    <string name="alert_monthly_warning_text">You\'ve spent %1$s of your %2$s monthly budget. %3$s left this month.</string>
+    <string name="alert_monthly_exceeded">Monthly budget exceeded</string>
+    <string name="alert_monthly_exceeded_text">You\'ve spent %1$s this month, over your %2$s budget by %3$s.</string>
+
+    <!-- Categories -->
+    <string name="categories">Categories</string>
+    <string name="categories_note">Add your own categories or remove ones you don\'t use.</string>
+    <string name="manage_categories">Manage categories</string>
+    <string name="add_category">Add category</string>
+    <string name="add_expense_category">New expense category</string>
+    <string name="add_income_category">New income category</string>
+    <string name="hint_category_name">Category name</string>
+    <string name="error_category_name">Enter a name</string>
+    <string name="error_category_length">Keep it under %1$d characters</string>
+    <string name="error_category_exists">That category already exists</string>
+    <string name="error_last_category">Keep at least one category</string>
+    <string name="category_added">\"%1$s\" added</string>
+    <string name="category_deleted">\"%1$s\" deleted</string>
+    <string name="delete_category_title">Delete category?</string>
+    <string name="delete_category_unused">\"%1$s\" will be removed from the list.</string>
+    <plurals name="delete_category_used">
+        <item quantity="one">\"%1$s\" will be removed from the list. %2$d transaction uses it and will keep this label.</item>
+        <item quantity="other">\"%1$s\" will be removed from the list. %2$d transactions use it and will keep this label.</item>
+    </plurals>
+    <plurals name="category_usage">
+        <item quantity="one">%d transaction</item>
+        <item quantity="other">%d transactions</item>
+    </plurals>
+
+    <!-- Charts drill-down -->
+    <string name="monthly_summary">Monthly summary</string>
+    <string name="tap_month_hint">Tap a month to see its weeks</string>
+    <string name="top_categories">Top 3 categories</string>
+    <string name="biggest_expenses">Biggest expenses this month</string>
+    <string name="ranked_category">#%1$d  %2$s</string>
+    <plurals name="others_categories">
+        <item quantity="one">Others (%d category)</item>
+        <item quantity="other">Others (%d categories)</item>
+    </plurals>
+    <string name="weekly_summary_title">Weekly summary · %1$s</string>
+    <string name="tap_week_hint">Tap a week to see each day</string>
+    <string name="week_label">W%1$d\n%2$d–%3$d</string>
+    <string name="week_number">Week %1$d</string>
+    <string name="daily_summary_title">Daily summary · %1$s (%2$s – %3$s)</string>
+    <string name="day_no_transactions">%1$s · no transactions</string>
+    <plurals name="day_transactions">
+        <item quantity="one">%1$s · %2$d transaction</item>
+        <item quantity="other">%1$s · %2$d transactions</item>
+    </plurals>
+
+    <!-- Default categories, copied into the database on first run -->
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Bills</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Freelance</item>
+        <item>Pocket money</item>
+        <item>Gift</item>
+        <item>Investment</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Same order as Reminder.FREQUENCIES -->
+    <string-array name="reminder_frequencies">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+</resources>
